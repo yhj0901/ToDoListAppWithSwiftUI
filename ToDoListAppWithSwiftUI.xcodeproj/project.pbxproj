@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8EB3302A5CE2A400A4381F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8EB32F2A5CE2A400A4381F /* Launch Screen.storyboard */; };
 		4DEEF57F2A5B8ED900AC242C /* ToDoListAppWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF57E2A5B8ED900AC242C /* ToDoListAppWithSwiftUIApp.swift */; };
 		4DEEF5812A5B8ED900AC242C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF5802A5B8ED900AC242C /* MainView.swift */; };
 		4DEEF5832A5B8EDB00AC242C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF5822A5B8EDB00AC242C /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D8EB32F2A5CE2A400A4381F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4DEEF57B2A5B8ED900AC242C /* ToDoListAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEEF57E2A5B8ED900AC242C /* ToDoListAppWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		4DEEF5802A5B8ED900AC242C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				4DEEF57E2A5B8ED900AC242C /* ToDoListAppWithSwiftUIApp.swift */,
 				4DEEF5962A5B93C900AC242C /* GoogleService-Info.plist */,
 				4DEEF5BF2A5BDD8D00AC242C /* Extension.swift */,
+				4D8EB32F2A5CE2A400A4381F /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				4DEEF5872A5B8EDB00AC242C /* Preview Assets.xcassets in Resources */,
 				4DEEF5832A5B8EDB00AC242C /* Assets.xcassets in Resources */,
+				4D8EB3302A5CE2A400A4381F /* Launch Screen.storyboard in Resources */,
 				4DEEF5972A5B93C900AC242C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ToDoListAppWithSwiftUI/ToDoListAppWithSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -401,6 +406,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -424,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ToDoListAppWithSwiftUI/ToDoListAppWithSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -439,6 +446,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
